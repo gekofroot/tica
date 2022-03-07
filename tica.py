@@ -27,7 +27,7 @@ def main():
     main_window.geometry(f"{window_width}x{window_height}")
     FG = "#ffffff"
     BG = "#000000"
-    BD = 4
+    BD = 0
     FONT = ("Helvetica", 14)
     RLF_1 = FLAT
 
