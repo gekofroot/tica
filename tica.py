@@ -36,7 +36,7 @@ def main():
         try:
             get_item_price = float(item_price.get())
             get_tip_percent = float(tip_percent.get())
-            tip_total = (get_tip_percent / get_item_price) * 100
+            tip_total = (get_tip_percent / 100) * get_item_price
             total_amount = get_item_price + tip_total
             display_total.configure(text = f"{total_amount:.2f}", fg = FG, bg = BG)
             item_price.delete(0, END)
